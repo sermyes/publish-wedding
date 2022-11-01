@@ -1,0 +1,475 @@
+.slideArea .slides ul li .slide_content h2 span,
+*[class*="Area"] > h2,
+.wishArea > div h2,
+.count ul li div span#md-expired {
+  font-family: "Rouge Script", cursive;
+}
+.galleryArea ul li a,
+.contactArea div fieldset > *:not(:last-child) {
+  font-family: "Open Sans", sans-serif;
+}
+header div nav ul li a,
+footer div ul li a,
+footer div p,
+.slideArea .slides ul li .slide_content > *,
+*[class*="Area"] > p,
+.wishArea > div p,
+.aboutArea div > *,
+.historyArea ul li figure figcaption > *,
+.count ul li div span:last-child,
+.peopleArea ul li figure figcaption p,
+.wishArea .wishArea_container ul li figure figcaption,
+.blogArea ul li figure figcaption p,
+.blogArea ul li figure span,
+.contactArea div fieldset > input[type="submit"] {
+  font-family: "Taviraj", serif;
+}
+*[class*="Area"] > h2,
+.wishArea > div h2 {
+  font-size: 55px;
+  color: #e3527a;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+*[class*="Area"] > h2::before,
+.wishArea > div h2::before {
+  content: url("../images/heading-before.png");
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+*[class*="Area"] > h2::after,
+.wishArea > div h2::after {
+  content: url("../images/heading-after.png");
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+*[class*="Area"] > p,
+.wishArea > div p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #4c4c4c;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 3%;
+}
+.hiddenTitle {
+  display: none;
+}
+/* all using css */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  header {
+    background-color: #fff;
+    padding: 30px 0 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  header #mui,
+  header div label[for="mui"] {
+    display: none;
+  }
+  header div {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+  }
+  header div h1 {
+    max-width: 272px;
+    width: 25%;
+  }
+  header div h1 a {
+    display: block;
+  }
+  header div h1 a img {
+    width: 100%;
+  }
+  header div nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding-left: 275px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+  header div nav ul li {
+    display: inline-block;
+  }
+  header div nav ul li:not(:first-child) {
+    margin-left: 2.38%;
+  }
+  header div nav ul li a {
+    display: block;
+    line-height: 76px;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 300;
+    font-style: italic;
+  }
+  header div nav ul li a:hover,
+  header div nav ul li.active a {
+    color: #d65679;
+  }
+  /* header fin */
+
+  footer {
+    background-color: #212121;
+  }
+  footer div {
+    text-align: center;
+  }
+  footer div ul {
+    margin-bottom: 35px;
+  }
+  footer div ul li {
+    display: inline-block;
+  }
+  footer div ul li:not(:first-child) {
+    margin-left: 2.03%;
+  }
+  footer div ul li a {
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+  footer div ol {
+    margin-bottom: 15px;
+  }
+  footer div ol li {
+    display: inline-block;
+    width: 65px;
+    line-height: 65px;
+    border: 1px solid #fff;
+    border-radius: 33px;
+    box-sizing: border-box;
+    transition: background-color 0.5s;
+    cursor: pointer;
+  }
+  footer div ol li:not(:first-child) {
+    margin-left: 1.36%;
+  }
+  footer div ol li i.fab {
+    color: #fff;
+    transition: color 0.5s;
+  }
+  footer div ol li:hover {
+    background-color: #fff;
+  }
+  footer div ol li:hover i.fab {
+    color: #212121;
+  }
+  footer div p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+/* desktop fin */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  header {
+    background-color: #fff;
+    padding: 20px 0 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+  #mui {
+    display: none;
+  }
+  header div {
+    position: relative;
+    height: 70px;
+  }
+  header div label[for="mui"] {
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    left: 3%;
+    top: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  header div label[for="mui"] i.fa-bars {
+    font-size: 25px;
+  }
+  header div h1 {
+    max-width: 272px;
+    width: 30%;
+    float: right;
+    margin: 0 3% 0 10%;
+  }
+  header div h1 a {
+    display: block;
+  }
+  header div h1 a img {
+    width: 100%;
+  }
+  header div nav {
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 0;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  header div label + #mui:checked + nav {
+    height: 280px;
+  }
+  header div nav ul {
+    background-color: #fff;
+  }
+  header div nav ul li {
+    display: block;
+  }
+  header div nav ul li a {
+    display: block;
+    line-height: 35px;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 300;
+    font-style: italic;
+  }
+  header div nav ul li a:hover,
+  header div nav ul li.active a {
+    color: #d65679;
+  }
+  /* header fin */
+
+  footer {
+    background-color: #212121;
+  }
+  footer div {
+    text-align: center;
+  }
+  footer div ul {
+    margin-bottom: 35px;
+  }
+  footer div ul li {
+    display: inline-block;
+  }
+  footer div ul li:not(:first-child) {
+    margin-left: 2.03%;
+  }
+  footer div ul li a {
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+  footer div ol {
+    margin-bottom: 15px;
+  }
+  footer div ol li {
+    display: inline-block;
+    width: 65px;
+    line-height: 65px;
+    border: 1px solid #fff;
+    border-radius: 33px;
+    box-sizing: border-box;
+    transition: background-color 0.5s;
+    cursor: pointer;
+  }
+  footer div ol li:not(:first-child) {
+    margin-left: 1.36%;
+  }
+  footer div ol li i.fab {
+    color: #fff;
+    transition: color 0.5s;
+  }
+  footer div ol li:hover {
+    background-color: #fff;
+  }
+  footer div ol li:hover i.fab {
+    color: #212121;
+  }
+  footer div p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+/* tablet fin */
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 80px 0;
+  }
+  header {
+    background-color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+  #mui {
+    display: none;
+  }
+  header div {
+    position: relative;
+    height: 70px;
+  }
+  header div label[for="mui"] {
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    left: 3%;
+    top: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  header div label[for="mui"] i.fa-bars {
+    font-size: 25px;
+    display: inline-block;
+  }
+  header div h1 {
+    max-width: 272px;
+    width: 40%;
+    float: right;
+    margin: 0 3% 0 10%;
+  }
+  header div h1 a {
+    display: block;
+  }
+  header div h1 a img {
+    width: 100%;
+  }
+  header div nav {
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 0;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  header div label + #mui:checked + nav {
+    height: 280px;
+  }
+  header div nav ul {
+    background-color: #fff;
+  }
+  header div nav ul li {
+    display: block;
+  }
+  header div nav ul li a {
+    display: block;
+    line-height: 35px;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 300;
+    font-style: italic;
+    transition: 0.5s ease-in opacity;
+    opacity: 0;
+  }
+  header div label + #mui:checked + nav ul li a {
+    opacity: 1;
+  }
+  header div nav ul li a:hover,
+  header div nav ul li.active a {
+    color: #d65679;
+  }
+  /* header fin */
+
+  footer {
+    background-color: #212121;
+  }
+  footer div {
+    text-align: center;
+  }
+  footer div ul {
+    margin-bottom: 35px;
+  }
+  footer div ul li {
+    display: inline-block;
+  }
+  footer div ul li:not(:first-child) {
+    margin-left: 2.03%;
+  }
+  footer div ul li:nth-child(5) {
+    margin-left: 0;
+  }
+  footer div ul li:nth-child(1),
+  footer div ul li:nth-child(2),
+  footer div ul li:nth-child(3),
+  footer div ul li:nth-child(4) {
+    margin-bottom: 10px;
+  }
+  footer div ul li a {
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+  footer div ol {
+    margin-bottom: 15px;
+  }
+  footer div ol li {
+    display: inline-block;
+    width: 55px;
+    line-height: 52px;
+    border: 1px solid #fff;
+    border-radius: 27px;
+    box-sizing: border-box;
+    transition: background-color 0.5s;
+    cursor: pointer;
+  }
+  footer div ol li:not(:first-child) {
+    margin-left: 1.36%;
+  }
+  footer div ol li i.fab {
+    color: #fff;
+    transition: color 0.5s;
+  }
+  footer div ol li:hover {
+    background-color: #fff;
+  }
+  footer div ol li:hover i.fab {
+    color: #212121;
+  }
+  footer div p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+/* mobile fin */
