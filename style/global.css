@@ -61,8 +61,10 @@ footer div p,
   display: none;
 }
 .hide_target {
+  display: block;
   text-indent: -9999px;
   height: 1px;
+  overflow: hidden;
 }
 /* all using css */
 
