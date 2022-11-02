@@ -1,18 +1,18 @@
 .slideArea .slides ul li .slide_content h2 span,
-*[class*="Area"] > h2,
+*[class*='Area'] > h2,
 .wishArea > div h2,
 .count ul li div span#md-expired {
-  font-family: "Rouge Script", cursive;
+  font-family: 'Rouge Script', cursive;
 }
 .galleryArea ul li a,
 .contactArea div fieldset > *:not(:last-child) {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 header div nav ul li a,
 footer div ul li a,
 footer div p,
 .slideArea .slides ul li .slide_content > *,
-*[class*="Area"] > p,
+*[class*='Area'] > p,
 .wishArea > div p,
 .aboutArea div > *,
 .historyArea ul li figure figcaption > *,
@@ -21,10 +21,10 @@ footer div p,
 .wishArea .wishArea_container ul li figure figcaption,
 .blogArea ul li figure figcaption p,
 .blogArea ul li figure span,
-.contactArea div fieldset > input[type="submit"] {
-  font-family: "Taviraj", serif;
+.contactArea div fieldset > input[type='submit'] {
+  font-family: 'Taviraj', serif;
 }
-*[class*="Area"] > h2,
+*[class*='Area'] > h2,
 .wishArea > div h2 {
   font-size: 55px;
   color: #e3527a;
@@ -32,21 +32,21 @@ footer div p,
   text-align: center;
   margin-bottom: 15px;
 }
-*[class*="Area"] > h2::before,
+*[class*='Area'] > h2::before,
 .wishArea > div h2::before {
-  content: url("../images/heading-before.png");
+  content: url('../assets/images/heading-before.png');
   width: 25px;
   height: 25px;
   margin-right: 10px;
 }
-*[class*="Area"] > h2::after,
+*[class*='Area'] > h2::after,
 .wishArea > div h2::after {
-  content: url("../images/heading-after.png");
+  content: url('../assets/images/heading-after.png');
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
-*[class*="Area"] > p,
+*[class*='Area'] > p,
 .wishArea > div p {
   font-size: 14px;
   line-height: 23px;
@@ -59,6 +59,10 @@ footer div p,
 }
 .hiddenTitle {
   display: none;
+}
+.hide_target {
+  text-indent: -9999px;
+  height: 1px;
 }
 /* all using css */
 
@@ -76,7 +80,7 @@ footer div p,
     z-index: 100;
   }
   header #mui,
-  header div label[for="mui"] {
+  header div label[for='mui'] {
     display: none;
   }
   header div {
@@ -202,9 +206,8 @@ footer div p,
     position: relative;
     height: 70px;
   }
-  header div label[for="mui"] {
-    border: 1px solid black;
-    padding: 5px 10px;
+  header div label[for='mui'] {
+    padding: 5px 7px 6px 4px;
     width: 22px;
     height: 25px;
     position: absolute;
@@ -213,8 +216,8 @@ footer div p,
     cursor: pointer;
     text-align: center;
   }
-  header div label[for="mui"] i.fa-bars {
-    font-size: 25px;
+  header div label[for='mui'] i.fa-bars {
+    font-size: 30px;
   }
   header div h1 {
     max-width: 272px;
@@ -340,9 +343,8 @@ footer div p,
     position: relative;
     height: 70px;
   }
-  header div label[for="mui"] {
-    border: 1px solid black;
-    padding: 5px 10px;
+  header div label[for='mui'] {
+    padding: 5px 7px 6px 4px;
     width: 22px;
     height: 25px;
     position: absolute;
@@ -351,8 +353,8 @@ footer div p,
     cursor: pointer;
     text-align: center;
   }
-  header div label[for="mui"] i.fa-bars {
-    font-size: 25px;
+  header div label[for='mui'] i.fa-bars {
+    font-size: 30px;
     display: inline-block;
   }
   header div h1 {
